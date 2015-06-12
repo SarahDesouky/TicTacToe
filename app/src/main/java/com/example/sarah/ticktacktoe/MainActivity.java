@@ -188,9 +188,9 @@ public class MainActivity extends Activity {
                     checkWinO(v);
                     checkWinX(v);
                 }
-                if(count==9) {
+                if(count==9 &&!gameOver) {
                     final TextView text = (TextView)findViewById(R.id.text);
-                    text.setText("No one Wins!");
+                    text.setText("No one wins!");
                     gameOver = true;
                 }
             }
