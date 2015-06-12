@@ -1,4 +1,4 @@
-package com.example.sarah.ticktacktoe;
+package com.example.sarah.tictactoe;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import com.example.sarah.ticktacktoe.R;
 
 
 public class MainActivity extends Activity {
